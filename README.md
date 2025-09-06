@@ -43,20 +43,67 @@ Equity curve plotted automatically (equity_PAIR_YYYYMMDD.png).
 
 ---
 
-### 1. Clone repository
+⚙️ Installation
+
+###1. Clone repository
+
 ```bash
 git clone https://github.com/arfeix/FVG-QUANT-BOT.git
 cd FVG-QUANT-BOT
 ```
 
-### 2. Create virtual environment (recommended)
+###2. Create virtual environment (recommended)
+
+Linux / Mac
+
 ```bash
 python3 -m venv venv
-source venv/bin/activate   # Linux / Mac
-venv\Scripts\activate      # Windows
+source venv/bin/activate
 ```
 
-### 3. Install dependencies
+Windows (Command Prompt)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+Windows (PowerShell)
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+###3. Upgrade pip (recommended)
+
+```bash
+pip install --upgrade pip
+```
+
+###4. Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
+
+Jika file requirements.txt belum ada, buat dengan isi:
+
+```txt
+matplotlib
+```
+
+Lalu jalankan lagi:
+
+```bash
+pip install -r requirements.txt
+```
+
+###5. Run the bot
+
+```bash
+python bot.py
+```
+
+
+---
