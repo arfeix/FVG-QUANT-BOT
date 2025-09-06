@@ -8,3 +8,6 @@ Selain menghitung probabilitas validitas FVG, bot juga menyajikan:
 - 🖼️ Grafik distribusi rasio **FVG/ATR** dari data historis
 
 ---
+git clone https://github.com/username/fvg-quant-bot.git
+cd fvg-quant-bot
+pip install -r requirements.txt
