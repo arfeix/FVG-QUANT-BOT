@@ -1,2 +1,10 @@
-# FVG-QUANT-BOT
-fvg-zscore-quant-bot/ │ ├── fvg_bot_hybrid_plot.py    # script utama ├── requirements.txt          # dependencies ├── README.md                 # panduan lengkap ├── fvg_data.csv              # history (dibuat otomatis) ├── results.csv               # log hasil perhitungan (dibuat otomatis)
+# 📊 Hedge Fund FVG Quant Bot (Hybrid + Grafik)
+
+Bot Python untuk analisis **Fair Value Gap (FVG)** dengan pendekatan ala **Quant Hedge Fund**.  
+Selain menghitung probabilitas validitas FVG, bot juga menyajikan:
+- 📈 Probabilitas dengan/ tanpa konfirmasi (Liquidity + MSS)
+- ⚖️ Expected Value (EV) per 1R
+- 🧮 Kelly Criterion untuk sizing optimal
+- 🖼️ Grafik distribusi rasio **FVG/ATR** dari data historis
+
+---
